@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+#score-home, #score-guest{
+    width: 150px;
+    height: 120px;
+    margin: 20px;
+    background-color: black;
+    color: rgb(255, 53, 90);
+    font-size: 100px;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 10px;
+}
+
+.buttons{
+    width: 178px;
+    height: 55px;
+    margin-right: 0px;
+    padding-left: 7px;
+}
+
+#btn-plsOne, #btn-plsTwo, #btn-plsThree {
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    background-color: transparent;
+    border: 2px solid rgb(219, 219, 219);
+    font-size: 18px;
+    color: rgb(219, 219, 219);
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+}
